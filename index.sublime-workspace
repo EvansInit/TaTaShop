@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"bootstrap"
+			],
+			[
+				"carousel",
+				"carouselimage"
+			],
+			[
+				"ob_",
+				"ob_get_clean"
+			],
+			[
+				"ob",
+				"ob_start"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"de",
+				"detailsmodal"
+			],
+			[
+				"inc",
+				"includes"
+			],
+			[
+				"pad",
+				"padding-right\tproperty"
+			],
+			[
+				"col",
+				"col-sm-3"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"te",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"K",
+				"KhanStore"
+			],
+			[
+				"ti",
+				"timeTaken"
+			],
+			[
+				"be",
+				"bestTime"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"sha",
+				"shapes"
+			],
+			[
+				"time",
+				"timeDelayer"
+			],
+			[
+				"shape",
+				"shapeChanger"
+			],
+			[
+				"s",
+				"script\tTag"
+			],
+			[
+				"guess",
+				"guesstimes"
+			],
+			[
+				"gu",
+				"guessing"
+			],
+			[
+				"pc",
+				"pcguess"
+			],
+			[
+				"but",
+				"button1"
+			],
+			[
+				"new",
+				"newtweets"
+			],
+			[
+				"bu",
+				"button1"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"input",
+				"input1"
+			],
+			[
+				"b",
+				"button1"
+			],
+			[
+				"re",
+				"red-circle"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"butt",
+				"button4"
+			],
+			[
+				"button",
+				"button3"
+			],
+			[
+				"butto",
+				"button2"
+			],
+			[
+				"dead",
+				"deadzone1"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"text-",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"t",
+				"text-shadow\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"border-",
+				"border-radius\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"la",
+				"large"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"un",
+				"underlined"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"V",
+				"VIDEO\tTag"
+			],
+			[
+				"v",
+				"video\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/W/dev/htdocs/new/TaTaShop/core/init.php",
+		"/W/dev/htdocs/new/TaTaShop/includes/head.php",
+		"/W/dev/htdocs/new/TaTaShop/includes/detailsmodal.php",
+		"/W/dev/htdocs/new/TaTaShop/includes/navigation.php",
+		"/W/dev/htdocs/new/TaTaShop/index.php",
+		"/W/dev/htdocs/new/TaTaShop/includes/footer.php",
+		"/W/dev/htdocs/new/TaTaShop/includes/carousel.php",
+		"/W/dev/htdocs/new/TaTaShop/includes/leftsidebar.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
