@@ -1,5 +1,8 @@
+</div>
+<br><br>
+
 <!--footer -->
-     <!--<footer class="fixed-bottom bg-dark  text-center" id="footer">&copy; Copyright 2018 TaTa Shop</footer> -->
+     <div class="bg-light text-center" id="footer" style="padding: 10px;">&copy; Copyright 2018 TaTa Shop</div>
 
      <script>
 
@@ -7,12 +10,11 @@
      		//alert(id);
      		var data = {"id" : id};
      		jQuery.ajax({
-     			url : <?php echo BASEURL; ?>+'includes/detailsmodal.php',
-                    //url : 'http://127.0.0.1/new/TaTaShop/includes/detailsmodal.php',
+     			url : '/TaTaShop/includes/detailsmodal.php',
      			method : "post",
      			data : data,
      			success : function(data){
-     				jQuery('body').append(data);
+     				jQuery('body').prepend(data);
      				jQuery('#details-modal').modal('toggle');
      			},
      			error : function(){

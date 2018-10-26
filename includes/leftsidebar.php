@@ -8,11 +8,16 @@
 <!-- Sidebar -->
 <div id="sidebar">
   <div class="sidebar-header">
-      <h2>Categories</h2>
-  </div>
+      <h2>Categories</h2>    
 
-  <ul class="list-unstyled components" style="font-size: 25px;">
-    <?php    while ($parent = mysqli_fetch_assoc($pquery)):    ?>
+      <!-- <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#sidebarSupportedContent" aria-controls="sidebarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button> -->
+    </div>
+  
+<?php   while ($parent = mysqli_fetch_assoc($pquery)):    ?>
+  <ul class="list-unstyled components " style="font-size: 25px;">
+    
           <?php
            $parent_id = $parent['id'];
            $sql2 = "SELECT * FROM categories WHERE parent = '$parent_id'";
@@ -20,17 +25,20 @@
 
           ?>
               <li class="active">
-                  <a href="#" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><?php echo $parent['category']; ?></a>
-
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                  <a href="#" data-toggle="collapse" data-target="#childCatz" style="color: #000000" aria-expanded="false" class="dropdown-toggle" aria-controls="#homeSubmenu"><?php echo $parent['category']; ?></a>
+                      
+                        <ul id="childCatz" class="collapse">
                           <?php  while ($child = mysqli_fetch_assoc($cquery)): ?>
-                            <li><a href="../categories/ClothesMen.php"><?php echo $child['category']; ?></a></li>
+                            <li>
+                              <a href="" ><?php echo $child['category']; ?></a>
+                            </li>
                           <?php endwhile; ?>
                         </ul>
+                      
               </li>
-            <?php   endwhile;  ?>
+            
           </ul>
-
+<?php   endwhile;  ?>
 
 </div>
 

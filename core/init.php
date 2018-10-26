@@ -7,5 +7,10 @@ if(mysqli_connect_errno()){
   die();
 }
 
+//define('BASEURL', '/TaTaShop/');
 
-define('BASEURL', '/TaTaShop/');
+//the config func for client side
+//require_once 'config.php';
+//the ../config functions for the admin side
+require_once $_SERVER['DOCUMENT_ROOT'].'/TaTaShop/config.php';
+require_once BASEURL.'helpers/helpers.php';
