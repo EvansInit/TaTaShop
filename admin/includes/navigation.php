@@ -10,6 +10,18 @@
       <ul class="nav navbar-nav">
         <li class="nav-item"><a href="categories.php">Categories</a></li>
       </ul>
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a href="products.php">Products</a></li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a href=""></a></li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a href=""></a></li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a href=""></a></li>
+      </ul>
 
       
   </div>

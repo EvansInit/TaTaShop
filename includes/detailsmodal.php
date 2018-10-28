@@ -19,7 +19,7 @@ $brand = mysqli_fetch_assoc($brand_query);
  ?>
 
 <!--modal for details when clicked -->
-<?php echo ob_start();
+<?php ob_start();
 //session_start(); ?> <!-- starts a buffer then read the content and send it to the ajax as the data object-->
 
 <div class="modal fade details-modal" id="details-modal" tabindex="-1" role="dialog" aria-labelledby="details-modal" aria-hidden="true">
@@ -65,9 +65,10 @@ $brand = mysqli_fetch_assoc($brand_query);
   function closeModal(){
     jQuery('#details-modal').modal('hide');
     setTimeout(function(){
-      jQuery('#details-modal').remove();
-      jQuery('.modal-backdrop').remove();
+      jQuery('#details-modal').removeData();
+      jQuery('.modal-backdrop').removeData();
     },20);
+
   }
   
 </script>
